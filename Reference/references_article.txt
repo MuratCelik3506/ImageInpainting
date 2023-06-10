@@ -1,0 +1,13 @@
+Context Encoders: Feature Learning by Inpainting + https://arxiv.org/abs/1604.07379
+High-Resolution Image Inpainting using Multi-Scale Neural Patch Synthesis + https://arxiv.org/abs/1611.09969
+Globally and Locally Consistent Image Completion + https://dl.acm.org/doi/10.1145/3072959.3073659
+Patch-Based Image Inpainting with Generative Adversarial Networks + https://arxiv.org/abs/1803.07422
+Shift-Net: Image Inpainting via Deep Feature Rearrangement + https://arxiv.org/abs/1801.09392
+Generative Image Inpainting with Contextual Attention + https://arxiv.org/abs/1801.07892
+EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning + https://arxiv.org/abs/1901.00212
+Pluralistic Image Completion + https://arxiv.org/abs/1903.04227 
+Coherent Semantic Attention for Image Inpainting + https://arxiv.org/abs/1905.12384
+Large Scale Image Completion via Co-Modulated Generative Adversarial Networks + https://arxiv.org/abs/2103.10428
+Resolution-robust Large Mask Inpainting with Fourier Convolutions + https://arxiv.org/abs/2109.07161
+MISF: Multi-level Interactive Siamese Filtering for High-Fidelity Image Inpainting + https://arxiv.org/abs/2203.06304
+MAT: Mask-Aware Transformer for Large Hole Image Inpainting + https://arxiv.org/abs/2203.15270

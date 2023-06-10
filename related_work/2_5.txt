@@ -2,4 +2,4 @@ Shift-Net: Image Inpainting via Deep Feature Rearrangement
 
 While image inpainting algorithms quickly find their place in studies, it is thought that some CNN models may be useful in this area. One of them is the Shift-NET \cite{yan2018shiftnet} structure, which uses the U-net model structure. In addition to the model structure it proposes, this study also introduces a loss function structure. With this loss function, they aim to minimize the distance between the decoder feature after fully connected layer and the ground-truth encoder feature of the missing parts.
     
-    Places and Paris Street View datasets are used in the study. With these improvements, it is stated that success has been achieved by eliminating the fuzzy regions in the outputs of the Context-Encoder model.
+Places and Paris Street View datasets are used in the study. With these improvements, it is stated that success has been achieved by eliminating the fuzzy regions in the outputs of the Context-Encoder model.
