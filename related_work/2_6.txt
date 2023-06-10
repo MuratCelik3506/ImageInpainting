@@ -1,0 +1,3 @@
+Generative Image Inpainting with Contextual Attention
+
+loreim ipsum \cite{yu2018generative}

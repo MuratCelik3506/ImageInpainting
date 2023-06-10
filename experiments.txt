@@ -1,0 +1,7 @@
+In our study, we used the CelebAMask-HQ dataset consisting of 30,000 images and the Places365 dataset, from which we received 4000 images with 40 different labels. To examine the various challenges posed by different masks for CelebAMask-HQ, we included masks that target specific areas such as the face, hair, and skin. We also randomly prepared 8 different percentages (20\%, 30\%, 40\%, 50\%, 60\%, 70\%, 80\%, 90\%) masks for each image. We randomly prepared 4 different percentages (20\%, 40\%, 60\%, 80\%) masks for Places365 images. This resulted in a total extraction of 330,000 images per model for the CelebAMask-HQ dataset, and a total of 16,000 images per model for the Places365 dataset, taking into account the various masks used.
+
+The models employed in our study have been described in previous sections. We utilized pre-existing models that had been pretrained using the relevant dataset. No additional training was conducted for these models during the course of our study.
+
+The evaluation of images involved the application of various metrics to assess their quality, allowing for comparisons between different models. The metrics employed in our study include l1 loss, l2 loss, PSNR, LPIPS, and SSIM.
+
+Given that the models used for inpainting require GPU resources, we conducted the model testing with the support of GPUs provided by Google Colab.

@@ -1,0 +1,13 @@
+Context Encoders: Feature Learning by Inpainting
+
+This article \cite{pathak2016context} is a study presented at the CVPR 2016 conference. This study focuses on "inpainting", which is a feature learning approach using deep learning methods.
+
+A model called Context Encoders, which works on missing or worn images, is produced using convolutional neural networks that are similar to the Auto-Encoders structure and trained. Here, an example of representation that can establish semantic integrity in visual structures has been captured, as well as the harmony of the missing part to the picture as an image.
+
+Two loss functions are used. Reconstruction Loss is tasked with determining the general structure of the missing regions and their contextual adaptation to the visual structure. Experiments were made with L1 and L2 loss functions. Adversarial loss deals with making the predicted region more realistic.
+
+Three different mask types were used. Central region, a regional square area is selected from the center of the image, Random block, small squares are selected and extracted from various parts of the image; and Random region, a random region is extracted from a region of the image.
+
+In the experimental phase, Paris Street View and ImageNet datasets were used.
+
+Although the results are seen as unsuccessful, it can be thought that working with the outputs of this model can be more efficient when working with pictures containing missing regions, as the authors intended. The importance of the study is increasing due to the date of the study and being one of the pioneering studies in this field.

@@ -1,0 +1,3 @@
+Globally and Locally Consistent Image Completion
+
+This study \cite{10.1145/3072959.3073659} has two main contributions. These contributions were pioneers for further studies. The first contribution is that they use the Fully Convolutional Network with Dilated Convolution structure. Second, it is a new development in discriminator methods. Two types of discriminator methods are used in this development. One is the global discriminator, which focuses on the whole image, and the other is the local discriminator, which focuses only on the missing region. In addition to the structure of a model in image inpainting studies, the method of penalizing that structure is also important. For this reason, these improvements were frequently used in subsequent studies.

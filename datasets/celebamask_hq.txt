@@ -1,0 +1,3 @@
+CelebAMask-HQ : \cite{CelebAMask-HQ}
+
+CelebAMask-HQ is a derivative of the CelebA dataset and is a dataset used for face segmentation. Developed for use with the CelebA dataset, CelebAMask-HQ includes detailed segmentation masks of faces to create face masks. The CelebAMask-HQ dataset consists of 30000 high resolution (512x512 pixels) color images and corresponding segmentation masks.

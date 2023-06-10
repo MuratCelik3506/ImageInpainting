@@ -1,0 +1,3 @@
+Large Scale Image Completion via Co-Modulated Generative Adversarial Networks
+
+lorem ipsum \cite{zhao2021large}

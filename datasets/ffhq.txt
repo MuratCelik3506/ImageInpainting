@@ -1,0 +1,3 @@
+FFHQ : \cite{karras2019stylebased} 
+
+The FFHQ (Flickr-Faces-HQ) dataset is a high-resolution dataset containing various human face images. The FFHQ dataset created by NVIDIA consists of data collected from the Flickr platform. This dataset is used for research and development in face recognition, face synthesis, image synthesis and other similar fields. The FFHQ dataset contains over 70,000 high resolution (1024x1024 pixels) color images.

@@ -1,0 +1,3 @@
+Places : \cite{zhou2017places}
+
+The Places dataset is a large category-based image dataset that contains images of various places. The Places dataset was created by the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL). This dataset contains 10 million tagged images representing various categories of venues. This dataset, which has different versions, can be used publicly after providing certain information.

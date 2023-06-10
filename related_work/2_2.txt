@@ -1,0 +1,9 @@
+High-Resolution Image Inpainting using Multi-Scale Neural Patch Synthesis
+
+This paper \cite{yang2017highresolution} introduces an image content completion method that aims to successfully complete lost or damaged areas in high resolution images.
+    
+The proposed model has a two-stage structure. The first stage produces a result with a structure similar to the Context Encoders structure. This structure, called the first content network, takes part in the re-creation of lost regions. In the second part, it aims to reorganize this result and to gain styles suitable for the visual structure of the painting. This part is called texture network. In the Texture Network section, by extracting certain features of the picture with VGG, the style can be determined in accordance with the main structure.
+    
+Paris Street View and Imagenet data were used in this study.
+
+The results are significantly better than the Context Encoder and Context-Aware Fill studies. The most important point is that it can give high resolution compared to other studies.

@@ -1,0 +1,7 @@
+Coherent Semantic Attention for Image Inpainting
+
+Introducing a new layer structure, this study \cite{liu2019coherent} revealed a two-stage model that predicts holes in the image. In these two stages, the U-net structure is utilized. The holes are roughly filled with the structure called Rough Network. In the next stage, details are given to those parts with the Refinement Network model. Two parts are important in this study. One of them tried to establish a relationship between the filled space and its surroundings by adding a middle layer called Coherent Semantic Attention to the middle layer of the Refinement Network model. Second, they take into account not only the image but also the feature map of the image with VGG in the discriminator model. 
+     
+In this study, worked with Places2, CelebA and Paris Street View datasets. 
+     
+The authors using studies such as Shift-Net and Partial Conv in their comparisons have shown successful results.

@@ -1,0 +1,3 @@
+Pluralistic Image Completion
+
+loreim ipsum \cite{zheng2019pluralistic}

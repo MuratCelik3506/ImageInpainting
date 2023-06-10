@@ -1,0 +1,3 @@
+ImageNet : \cite{yang2019fairer}
+
+The ImageNet dataset is an image classification and object recognition dataset. ImageNet, first created by Jia Deng et al. in 2009, is a widely used big data source for training image recognition algorithms. This dataset have 1000 object classes and contains 1,281,167 training images, 50,000 validation images and 100,000 test images.
