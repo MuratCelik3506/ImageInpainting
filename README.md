@@ -1,1 +1,3 @@
 # ImageInpainting
+
+In recent years, the field of image inpainting has been attracting significant attention in the domains of computer vision and graphics. Image inpainting can be defined as a process used to automatically complete missing or damaged areas. In this study, 3 image inpainting models, which are spoken in different ways in this field, are evaluated on human face and places images and their performance is compared. In this evaluation, 11 types of masks are tested on CelebAMask-HQ and Places365 datasets, and results are obtained by scoring 5 different metrics. This research makes a contribution to compare the performance of models working on different datasets in image inpainting and completing missing regions using different methods.
