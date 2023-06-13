@@ -1,3 +1,7 @@
 Pluralistic Image Completion
 
-loreim ipsum \cite{zheng2019pluralistic}
+The current image completion approach introduced in this study differs from conventional methods as it generates multiple results for each masked input. There are two suggested approaches in this framework.
+
+The first approach is a reconstructive path, which leverages a given ground truth image to establish a prior distribution for the missing parts. Using this distribution, the model reconstructs the original image, taking into account the missing regions. The second approach is a generative path, where the conditional prior is linked to the distribution obtained from the reconstructive path. This allows the model to generate diverse and plausible completions for the masked regions. To enhance image consistency and preserve relations between encoders and decoders, short and long-term attention layers are incorporated into the model architecture.
+    
+During training, datasets containing Paris Street View, CelebA-HQ, and ImageNet are used. These datasets provide a diverse range of images, enabling the model to learn and generalize well across different scenarios and domains.

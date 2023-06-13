@@ -1,1 +1,3 @@
-Lorem \cite{li2022mat} Ipsum is simply dummy text of the printing and typesetting industry.
+There are various difficulties in image inpainting studies. The main ones are the model's ability to understand the semantic structures in the images, the high costs even at low resolution, the size of the holes, and the limitation of the intelligibility of the image. In this study, which was developed by targeting these difficulties, the novel inpainting model, MAT, was developed.
+
+The MAT model is the first transformers-based inpainting model that works with high-resolution images. With the introduced multi-head contextual attention structure, it produces outputs that are permanent in long range and suitable for the displayed tokens. With the modifications made in the transformers blocks in the system, it achieves more stable results in large hole masks during the training phase. It produces multiple and varied outputs with style manipulations.

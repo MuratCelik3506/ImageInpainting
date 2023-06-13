@@ -1,1 +1,3 @@
-Lorem Ipsum \cite{suvorov2021resolutionrobust} is simply dummy text of the printing and typesetting industry. 
+LaMa's novel approach of utilizing Fourier Convolutions for large mask inpainting brings several significant advantages to the field of image completion. By leveraging the power of the Fourier Transform, which decomposes signals or images into their frequency components, LaMa tackles the challenge of completing large missing regions in images.
+
+When an incomplete image is transformed into the frequency domain using the Fourier Transform, it opens up new possibilities for efficient and effective completion. By manipulating the frequency components corresponding to the missing regions, LaMa restores the image in the spatial domain, seamlessly filling in the gaps and producing visually coherent results. A plain version of the model architecture is seen in figure of architecture.

@@ -1,6 +1,6 @@
 Context Encoders: Feature Learning by Inpainting
 
-This article \cite{pathak2016context} is a study presented at the CVPR 2016 conference. This study focuses on "inpainting", which is a feature learning approach using deep learning methods.
+This article is a study presented at the CVPR 2016 conference. This study focuses on "inpainting", which is a feature learning approach using deep learning methods.
 
 A model called Context Encoders, which works on missing or worn images, is produced using convolutional neural networks that are similar to the Auto-Encoders structure and trained. Here, an example of representation that can establish semantic integrity in visual structures has been captured, as well as the harmony of the missing part to the picture as an image.
 

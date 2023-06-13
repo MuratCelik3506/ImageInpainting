@@ -1,1 +1,1 @@
-Lorem \cite{li2022misf} Ipsum is simply dummy text of the printing and typesetting industry.
+While image inpainting models are evolving rapidly, there is a long way to go for missing image details. It is aimed to get good results in these details by considering the image inpainting model as a filtering task. For this purpose, in this study, the issue of image-level predictive filtering for image inpainting is examined and a model with filtering technique,one that can preserve local structures, prevent artifacts, but has difficulty with large holes, is proposed.

@@ -1,3 +1,5 @@
 EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning
 
-loreim ipsum \cite{nazeri2019edgeconnect}
+The EdgeConnect introduces a two-stage competitor model that aims to address image completion tasks. The model consists of an edge generator followed by an image completion mesh. In the first stage, the edge generator creates an artificial border in the missing region of the input image. Then, in the second stage, the generating mesh fills in the missing regions using the artificial boundaries provided by the edge generator.
+
+To train the model, publicly available datasets such as CelebA, Places2, and Paris StreetView were utilized. These datasets provide a diverse range of images for training and evaluation purposes.

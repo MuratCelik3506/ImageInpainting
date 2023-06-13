@@ -1,0 +1,5 @@
+Introduces multi-level interactive Siamese filtering (MISF), which consists of two branches with similar architectures, such as the core prediction branch (KPB) and the semantic and image filtering branch (SIFB), which are encoder-decoder networks. This approach uses two encoder-decoder models in parallel. These two models are connected to each other as in the figure of architectures.
+
+The predictive network predicts filtering kernels at different levels by taking the feature map and image. The semantic and pixel-filling information is preserved with the predicted kernels. With image-level filtering, concentrate on the details. The task of filling with meaningful information is given by deep feature-level filtering.
+
+Continuing its experiments with Places2, CelebA, and Dunhuang datasets, the study examines the simple Encoder-Decoder model and the MISF model by showing the effect of filters. Compared to other image inpainting works, it stands out especially with its success in small details.

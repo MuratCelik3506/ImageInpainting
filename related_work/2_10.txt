@@ -1,3 +1,5 @@
 Large Scale Image Completion via Co-Modulated Generative Adversarial Networks
 
-lorem ipsum \cite{zhao2021large}
+The study on Comodulated Generative Adversarial Network (CoModGAN) introduces a novel approach to address the challenge of completing large-scale missing regions in images. This approach aims to bridge the gap between image conditional architectures and recently developed modulated unconditionally generative architectures. It does so by incorporating co-modulation techniques that combine both conditional and stochastic style representations.
+
+Additionally, the study addresses the issue of lacking reliable quantitative measures for evaluating image completion. To tackle this, a new metric called Paired/Unpaired Baseline Distinguished Score (P-IDS/U-IDS) is proposed. This metric quantitatively assesses the perceptual accuracy of completed images by measuring the linear separation between dyed (completed) images and real images.

@@ -1,1 +1,8 @@
-lorem ipsum sit amet
+In conclusion, this paper has provided a comprehensive evaluation and comparison of various inpainting models in the domain of image inpainting. To run experiments using two primary datasets: the CelebAMask-HQ dataset and the Places365 dataset. These datasets included annotation masks and ratio masks, enabling us to quantitatively and qualitatively evaluate the performance of the tested interior staining models.
+
+Our evaluation relied on performance evaluation criteria, including visual similarity measures such as SSIM, LPIPS, and PSNR, as well as statistical measures like L1 and L2 losses. Through the analysis of these metrics and the comparison of different models' performances, we gained valuable insights into their respective strengths and weaknesses.
+
+As a result of all these evaluation stages, we tested the success of the proposed models. We observed that these performances were close to or slightly less than the results in the articles in which the models were introduced. It is thought that these results overlap with the theoretical knowledge of the article and that the output purposes of the models are well represented. However, it must be said again that these results do not perform adequately for the human eye.
+
+Image inpainting becomes a field that includes a lot of work on the problem it offers a solution in a short time. It is seen that these studies will continue rapidly and this problem will change over time and create new adventures. The fact that the problems of the future are starting to be solved now and its popularity continues to increase, reveals the importance of this field.
+

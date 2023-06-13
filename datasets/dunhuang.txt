@@ -1,3 +1,3 @@
-Dunhuang Grottoes Painting : \cite{yu2019dunhuang}
+Dunhuang Grottoes Painting : 
 
 Dunhuang Grottoes Painting Dataset is a dataset containing paintings from Buddhist caves with thousands of years of history in Dunhuang, China. This dataset contains digital images of wall paintings in these caves of historical and artistic importance.

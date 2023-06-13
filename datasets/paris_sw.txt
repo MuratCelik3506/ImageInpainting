@@ -1,3 +1,3 @@
-Paris StreetView : \cite{10.1145/2185520.2185597}
+Paris StreetView :
 
-The Paris StreetView dataset is images of the city of Paris collected from Google Street Views. The dataset is not available to the public for some legal reasons.
+The Paris Street View dataset is images of the city of Paris collected from Google Street Views. The dataset is not available to the public for some legal reasons.
