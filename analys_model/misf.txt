@@ -1,0 +1,7 @@
+For Table 1, it is seen that the MISF model lags behind other models in terms of random masks. This can be explained by the fact that filtering methods are more successful in thin and long regions, as stated in the article. On the contrary, the MISF model seems to be successful due to the detailed studies for the annotation mask.
+
+Looking at Figure CelebAMAsk-HQ outputs of MISF model, it is seen that the MISF model fails especially for the face mask. A striking element here is a few pairs of eyes, nose and mouth on one face. From this, it is seen that the MISF algorithm has difficulty in estimating the point location of the face parts in the large hole, and with this difficulty, it produces unsuccessful results with more than one estimation.
+
+For Table 2, it is determined that MISF outputs have difficulty completing with masks at 40\% and fail to fill gaps in the formation of higher ratios of holes. It is also seen in the figure Places365 outputs of MISF model that the outputs do not show sufficient performance even in small details.
+
+It is thought that the model alone fails to produce the desired outputs for the reason its success in regions with tiny holes cannot sufficiently compensate for its failure in locations with big holes.

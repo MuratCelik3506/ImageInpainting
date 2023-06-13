@@ -1,0 +1,7 @@
+As seen in Table 1 and Table 2, it is seen that the MAT model is competitive for each output method. It is said that this rivalry is noticed not only by the scores in the table but also by the human eye as seen in examples of outputs for MAT model.
+
+Although it cannot be said that it gives such results in all outputs, looking at Figure annotation mask outputs of MAT model, some outputs of the MAT model, especially for face mask, are impressive. This success is an important indicator for the future success of this study.
+
+The biggest problem in the output of the model for the CelebAMask-HQ dataset is filling the holes in the background other than the human face, while these filling processes have negative effects for the human face. Apart from this, it is seen that the details are not good enough and blue artifacts are produced, especially in areas such as the human eye, mouth and nose.
+
+For the Places365 dataset, it is examined that the model shows a resistive performance of 60\% mask in its outputs and that original hole fillings can be made. For higher ratio holes, it can be said that the model makes meaningless fillings and loses the whole image. It is seen that the model offers different variations for holes with a lower ratio.

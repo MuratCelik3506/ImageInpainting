@@ -47,6 +47,8 @@ with st.sidebar:
                 >6. Vision and Future Work</a>', unsafe_allow_html=True)
     st.markdown('<a href="#references"  style="text-decoration:none; color:black" \
                 >Refereneces</a>', unsafe_allow_html=True)
+    st.markdown('<a href="#additional-outputs"  style="text-decoration:none; color:black" \
+                >Additional Outputs</a>', unsafe_allow_html=True)
 
 #******************************************************************
 #     First Look
@@ -175,15 +177,22 @@ st.markdown(f'<p>{read_text("experimental_results.txt")}</p>', unsafe_allow_html
 st.markdown(f'{read_text("table/table_places.txt")}', unsafe_allow_html=True)
 st.markdown(f'<p style="text-align:center"><strong>Table 2: Places365 dataset</strong></p>', unsafe_allow_html=True)
 
-# 4.2 Experimental Analysis
-st.markdown(f'<h3>Experimental Analysis</h3>', unsafe_allow_html=True)
+# 4.3 Experimental Analysis
+st.markdown(f'<h3>4.3 Experimental Analysis</h3>', unsafe_allow_html=True)
 st.markdown(f'<p>Looking at Table 1 for the CelebAMask-HQ and dataset shows a broad comparison. This comparison \
             is made in 2 categories with 11 different mask types. Table 2 shows the results with 4 different ratio\
              masks for the Places365 dataset.</p>', unsafe_allow_html=True)
 
 st.markdown(f'<h4>LaMA: Resolution-robust Large Mask Inpainting with Fourier Convolutions</h4>', unsafe_allow_html=True)
+st.markdown(f'<p>{read_text("analys_model/lama.txt")}</p>', unsafe_allow_html=True)
 st.markdown(f'<h4>MAT: Mask-Aware Transformer for Large Hole Image Inpainting</h4>', unsafe_allow_html=True)
+st.markdown(f'<p>{read_text("analys_model/mat.txt")}</p>', unsafe_allow_html=True)
 st.markdown(f'<h4>MISF: Multi-level Interactive Siamese Filtering for High-Fidelity Image Inpainting</h4>', unsafe_allow_html=True)
+st.markdown(f'<p>{read_text("analys_model/misf.txt")}</p>', unsafe_allow_html=True)
+
+# 4.4 Discussion
+st.markdown(f'<h3>4.4 Discussion</h3>', unsafe_allow_html=True)
+st.markdown(f'<p>{read_text("discussion.txt")}</p>', unsafe_allow_html=True)
 
 
 #******************************************************************
@@ -200,7 +209,9 @@ st.markdown(f'<h2>6. Vision and Future Work</h2>', unsafe_allow_html=True)
 st.markdown(f'<p>{read_text("vision.txt")}</p>', unsafe_allow_html=True)
 
 
-
+#******************************************************************
+#     References
+#******************************************************************
 st.markdown(f'<h2>References</h2>', unsafe_allow_html=True)
 st.markdown(f'<h3>Articles</h3>', unsafe_allow_html=True)
 f = open("Reference/references_article.txt", "r")
@@ -217,3 +228,36 @@ f.close()
 for text in texts:
     text = text.split("+")
     st.markdown(f"[{text[0]}]({text[1]})", unsafe_allow_html=True)
+
+
+
+
+#******************************************************************
+#     Additional Outputs
+#******************************************************************
+
+st.markdown(f'<h2>Additional Outputs</h2>', unsafe_allow_html=True)
+
+# st.markdown(f'<h3>Outputs of LaMa</h3>', unsafe_allow_html=True)
+# img = Image.open('img/LAMA/LaMA_output.png')
+# st.image(img,caption="CelebAMask-HQ dataset outputs with annotation mask for LaMa: Resolution-robust Large Mask Inpainting with Fourier Convolutions")
+# img = Image.open('img/LAMA/LaMa_output_ratio.png')
+# st.image(img,caption="CelebAMask-HQ dataset outputs with ratio mask for LaMA: Resolution-robust Large Mask Inpainting with Fourier Convolutions")
+# img = Image.open('img/LAMA/LaMa_places.png')
+# st.image(img,caption="Places365 dataset outputs with ratio mask for LaMa: Resolution-robust Large Mask Inpainting with Fourier Convolutions")
+
+st.markdown(f'<h3>Outputs of MAT</h3>', unsafe_allow_html=True)
+img = Image.open('img/MAT/mat_output.png')
+st.image(img,caption="CelebAMask-HQ dataset outputs with annotation mask for MAT: Mask-Aware Transformer for Large Hole Image Inpainting")
+img = Image.open('img/MAT/mat_output_ratio.png')
+st.image(img,caption="CelebAMask-HQ dataset outputs with ratio mask for MAT: Mask-Aware Transformer for Large Hole Image Inpainting")
+img = Image.open('img/MAT/mat_places.png')
+st.image(img,caption="Places365 dataset outputs with ratio mask for MAT: Mask-Aware Transformer for Large Hole Image Inpainting")
+
+st.markdown(f'<h3>Outputs of MISF</h3>', unsafe_allow_html=True)
+img = Image.open('img/MISF/misf_output.png')
+st.image(img,caption="CelebAMask-HQ dataset outputs with annotation mask for MISF: Multi-level Interactive Siamese Filtering for High-Fidelity Image Inpainting")
+img = Image.open('img/MISF/misf_output_ratio.png')
+st.image(img,caption="CelebAMask-HQ dataset outputs with ratio mask for MISF: Multi-level Interactive Siamese Filtering for High-Fidelity Image Inpainting")
+img = Image.open('img/MISF/misf_places.png')
+st.image(img,caption="Places365 dataset outputs with ratio mask for MISF: Multi-level Interactive Siamese Filtering for High-Fidelity Image Inpainting")
