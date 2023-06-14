@@ -238,13 +238,21 @@ for text in texts:
 
 st.markdown(f'<h2>Additional Outputs</h2>', unsafe_allow_html=True)
 
-# st.markdown(f'<h3>Outputs of LaMa</h3>', unsafe_allow_html=True)
-# img = Image.open('img/LAMA/LaMA_output.png')
-# st.image(img,caption="CelebAMask-HQ dataset outputs with annotation mask for LaMa: Resolution-robust Large Mask Inpainting with Fourier Convolutions")
-# img = Image.open('img/LAMA/LaMa_output_ratio.png')
-# st.image(img,caption="CelebAMask-HQ dataset outputs with ratio mask for LaMA: Resolution-robust Large Mask Inpainting with Fourier Convolutions")
-# img = Image.open('img/LAMA/LaMa_places.png')
-# st.image(img,caption="Places365 dataset outputs with ratio mask for LaMa: Resolution-robust Large Mask Inpainting with Fourier Convolutions")
+st.markdown(f'<h3>Comparative Images of Models</h3>', unsafe_allow_html=True)
+img = Image.open('img/Compare/compare_celeba_annotation.png')
+st.image(img,caption="Comparative Images of CelebAMask-HQ dataset models with annotation mask")
+img = Image.open('img/Compare/compare_celeba_ratio.png')
+st.image(img,caption="Comparative Images of CelebAMask-HQ dataset models with ratio mas")
+img = Image.open('img/Compare/compare_places.png')
+st.image(img,caption="Comparative Images of Places365 dataset models with ratio mask")
+
+st.markdown(f'<h3>Outputs of LaMa</h3>', unsafe_allow_html=True)
+img = Image.open('img/LAMA/LaMA_output.png')
+st.image(img,caption="CelebAMask-HQ dataset outputs with annotation mask for LaMa: Resolution-robust Large Mask Inpainting with Fourier Convolutions")
+img = Image.open('img/LAMA/LaMa_output_ratio.png')
+st.image(img,caption="CelebAMask-HQ dataset outputs with ratio mask for LaMA: Resolution-robust Large Mask Inpainting with Fourier Convolutions")
+img = Image.open('img/LAMA/LaMa_places.png')
+st.image(img,caption="Places365 dataset outputs with ratio mask for LaMa: Resolution-robust Large Mask Inpainting with Fourier Convolutions")
 
 st.markdown(f'<h3>Outputs of MAT</h3>', unsafe_allow_html=True)
 img = Image.open('img/MAT/mat_output.png')
