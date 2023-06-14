@@ -247,7 +247,7 @@ img = Image.open('img/Compare/compare_places.png')
 st.image(img,caption="Comparative Images of Places365 dataset models with ratio mask")
 
 st.markdown(f'<h3>Outputs of LaMa</h3>', unsafe_allow_html=True)
-img = Image.open('img/LAMA/LaMA_output.png')
+img = Image.open('img/LAMA/LaMa_output.png')
 st.image(img,caption="CelebAMask-HQ dataset outputs with annotation mask for LaMa: Resolution-robust Large Mask Inpainting with Fourier Convolutions")
 img = Image.open('img/LAMA/LaMa_output_ratio.png')
 st.image(img,caption="CelebAMask-HQ dataset outputs with ratio mask for LaMA: Resolution-robust Large Mask Inpainting with Fourier Convolutions")
